@@ -8,6 +8,9 @@ env:
   REGISTRY: ghcr.io
   BASE_IMAGE_NAME: ghcr.io/oracle/weblogic-kubernetes-operator
 
+permissions:
+  contents: read
+
 jobs:
   build:
     name: Build
